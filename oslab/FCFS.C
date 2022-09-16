@@ -1,3 +1,9 @@
+/*
+Name of the experiment : FCFS program
+roll no : 204g1a0591
+name : S M sakiya rabbani 
+*/
+//source code
 #include<stdio.h>
 #include<conio.h>
 main()
