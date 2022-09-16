@@ -1,7 +1,9 @@
 /*
-Name of the experiment : FCFS program
-roll no : 204g1a0591
 name : S M sakiya rabbani 
+Name of the experiment : CPU scheduling program
+roll no : 204g1a0591
+Date of creation:16-09-22
+Date of execution:16-09-22
 */
 //source code
 #include<stdio.h>
