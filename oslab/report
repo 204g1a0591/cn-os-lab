@@ -1,347 +1,68 @@
-Script started on 2022-11-25 15:55:12+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ script report 25-11-22[14Pcd oslabcn-os-lab[3Pn-os-labgit clone https://github.com/204g1a0591/cn-os-lab.git[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [12Pcd 204g1a0591
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@mkdir[C[C[C[C[C[C[C[C[C[C[Cjavac Inheritence.javacd /home/srit/214g1a3337[3P/home/srit/214g1a3337javac Inheritence.java[10P Controlc Inheritence.java[1P/home/srit/214g1a3337cd /home/srit/214g1a3337[2Pjavac Inheritence.java[6Pmkdir 204g1a0591[3Pcd[C[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/204g1a0591/cn-os-lab.git[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [16Pcn-os-lab
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd cn-os-lab[4Poslabscript report 25-11-22[Kecho "oco algorithm" `dat e`
-[?2004loco algorithm Friday 25 November 2022 03:55:37 PM IST
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ nano pcp.c
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                          pcp.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[22;13H(B[0;7m[ line  1/1 (100%), col  1/ 1 (100%), char  0/0 ( 0%) ](B[m[?12l[?25h[2d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;47H(B[0;7m*[22d(B[m[K[1;79H[2dbash logger.sh -stop[42m [49m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[35mbreak[39m(B[m;[3d(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[4dprintf(“\nBuffer is Empty”);[5d(B[0;1m[33melse[6d[39m(B[m{[7dconsume = buffer[out];[8dprintf(“\nThe consumed value is %d”, consume);[9dout = (out+1)%bufsize;[10d}[11d[35mbreak[39m(B[m;[12d} } }[?12l[?25h[?25l[?12l[?25h[9d[?25l[?12l[?25h[6d{[?25l[?12l[?25h[3;6H[?25l[?12l[?25h[2;22r[2;1H[2T[1;24r[2;1Hbuffer[in] = produce;[3din = (in+1)%bufsize;[2;6H[?25l[?12l[?25h7[2;22r8[3T[1;24r[2;1H}[3dprintf(“\nEnter the value: “);[4dscanf(“%d”, &produce);[2d}[?25l[?12l[?25h7[2;22r8[3T[1;24r[2;1H(B[0;1m[33melse[3d[39m(B[m{[4d[35mbreak[39m(B[m;[2d[?25l[?12l[?25h7[2;21r8[3T[1;24r[3;1H(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[4dprintf(“\nBuffer is Full”);[2d[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hprintf(“\nEnter your choice: ”);[3dscanf(“%d”,&choice);[4d(B[0;1m[33mswitch[39m(B[m(choice) {[2;6H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H(B[0;1m[33mwhile[39m(B[m(choice !=3)[3d{[4dprintf(“\n1. Produce \t 2. Consume \t3. Exit”);[2;6H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hchoice=0; in = 0;[3dout = 0;[4dbufsize = 10;[2;6H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H[32mvoid[39m(B[m main()[3d{[4d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[2;6H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[6G[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20d[?25l[?12l[?25h[2;22r[22;1H[2S[1;24r[20;1Hprintf(“\nEnter the value: “);[21dscanf(“%d”, &produce);[6G[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hbuffer[in] = produce;[20din = (in+1)%bufsize;[21d[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[20dprintf(“\nBuffer is Empty”);[21d(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H{[20dconsume = buffer[out];[21dprintf(“\nThe consumed value is %d”, consume);[6G[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hout = (out+1)%bufsize;[20d}[21d[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[2S[1;24r[20;1H} } }[21d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: pcp.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 35 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ echo"pcp compilat[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgcc pcp.c
-[?2004l[01m[Kpcp.c:[m[K In function ‘[01m[Kmain[m[K’:
-[01m[Kpcp.c:10:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   10 | printf([01;31m[K“[m[K\n1. Produce \t 2. Consume \t3. Exit”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:10:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“[01;31m[K\[m[Kn1. Produce \t 2. Consume \t3. Exit”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:10:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kn1[m[K’ undeclared (first use in this function)
-   10 | printf(“\[01;31m[Kn1[m[K. Produce \t 2. Consume \t3. Exit”);
-      |          [01;31m[K^~[m[K
-[01m[Kpcp.c:10:10:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
-[01m[Kpcp.c:10:22:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“\n1. Produce [01;31m[K\[m[Kt 2. Consume \t3. Exit”);
-      |                      [01;31m[K^[m[K
-[01m[Kpcp.c:10:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kt[m[K’
-   10 | printf[34m[K([m[K“\n1. Produce[01;31m[K [m[K\[32m[Kt[m[K 2. Consume \t3. Exit”);
-      |       [34m[K~[m[K             [01;31m[K^[m[K [32m[K~[m[K
-      |                     [32m[K)[m[K
-[01m[Kpcp.c:10:36:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“\n1. Produce \t 2. Consume [01;31m[K\[m[Kt3. Exit”);
-      |                                    [01;31m[K^[m[K
-[01m[Kpcp.c:10:45:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   10 | printf(“\n1. Produce \t 2. Consume \t3. Exit[01;31m[K”[m[K);
-      |                                             [01;31m[K^[m[K
-[01m[Kpcp.c:11:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   11 | printf([01;31m[K“[m[K\nEnter your choice: ”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:11:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   11 | printf(“[01;31m[K\[m[KnEnter your choice: ”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:11:10:[m[K [01;31m[Kerror: [m[K‘[01m[KnEnter[m[K’ undeclared (first use in this function)
-   11 | printf(“\[01;31m[KnEnter[m[K your choice: ”);
-      |          [01;31m[K^~~~~~[m[K
-[01m[Kpcp.c:11:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kyour[m[K’
-   11 | printf[34m[K([m[K“\nEnter[01;31m[K [m[K[32m[Kyour[m[K choice: ”);
-      |       [34m[K~[m[K        [01;31m[K^[m[K[32m[K~~~~[m[K
-      |                [32m[K)[m[K
-[01m[Kpcp.c:11:30:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   11 | printf(“\nEnter your choice: [01;31m[K”[m[K);
-      |                              [01;31m[K^[m[K
-[01m[Kpcp.c:12:7:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   12 | scanf([01;31m[K“[m[K%d”,&choice);
-      |       [01;31m[K^[m[K
-[01m[Kpcp.c:12:8:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K%[m[K’ token
-   12 | scanf(“[01;31m[K%[m[Kd”,&choice);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:12:10:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   12 | scanf(“%d[01;31m[K”[m[K,&choice);
-      |          [01;31m[K^[m[K
-[01m[Kpcp.c:16:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   16 | printf([01;31m[K“[m[K\nBuffer is Full”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:16:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   16 | printf(“[01;31m[K\[m[KnBuffer is Full”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:16:10:[m[K [01;31m[Kerror: [m[K‘[01m[KnBuffer[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kbuffer[m[K’?
-   16 | printf(“\[01;31m[KnBuffer[m[K is Full”);
-      |          [01;31m[K^~~~~~~[m[K
-      |          [32m[Kbuffer[m[K
-[01m[Kpcp.c:16:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kis[m[K’
-   16 | printf[34m[K([m[K“\nBuffer[01;31m[K [m[K[32m[Kis[m[K Full”);
-      |       [34m[K~[m[K         [01;31m[K^[m[K[32m[K~~[m[K
-      |                 [32m[K)[m[K
-[01m[Kpcp.c:16:25:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   16 | printf(“\nBuffer is Full[01;31m[K”[m[K);
-      |                         [01;31m[K^[m[K
-[01m[Kpcp.c:21:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   21 | printf([01;31m[K“[m[K\nEnter the value: “);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:21:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   21 | printf(“[01;31m[K\[m[KnEnter the value: “);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:21:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kthe[m[K’
-   21 | printf[34m[K([m[K“\nEnter[01;31m[K [m[K[32m[Kthe[m[K value: “);
-      |       [34m[K~[m[K        [01;31m[K^[m[K[32m[K~~~[m[K
-      |                [32m[K)[m[K
-[01m[Kpcp.c:21:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   21 | printf(“\nEnter the value: [01;31m[K“[m[K);
-      |                            [01;31m[K^[m[K
-[01m[Kpcp.c:22:7:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   22 | scanf([01;31m[K“[m[K%d”, &produce);
-      |       [01;31m[K^[m[K
-[01m[Kpcp.c:22:8:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K%[m[K’ token
-   22 | scanf(“[01;31m[K%[m[Kd”, &produce);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:22:10:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   22 | scanf(“%d[01;31m[K”[m[K, &produce);
-      |          [01;31m[K^[m[K
-[01m[Kpcp.c:27:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   27 | printf([01;31m[K“[m[K\nBuffer is Empty”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:27:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   27 | printf(“[01;31m[K\[m[KnBuffer is Empty”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:27:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kis[m[K’
-   27 | printf[34m[K([m[K“\nBuffer[01;31m[K [m[K[32m[Kis[m[K Empty”);
-      |       [34m[K~[m[K         [01;31m[K^[m[K[32m[K~~[m[K
-      |                 [32m[K)[m[K
-[01m[Kpcp.c:27:26:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   27 | printf(“\nBuffer is Empty[01;31m[K”[m[K);
-      |                          [01;31m[K^[m[K
-[01m[Kpcp.c:31:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   31 | printf([01;31m[K“[m[K\nThe consumed value is %d”, consume);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:31:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   31 | printf(“[01;31m[K\[m[KnThe consumed value is %d”, consume);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[KnThe[m[K’ undeclared (first use in this function)
-   31 | printf(“\[01;31m[KnThe[m[K consumed value is %d”, consume);
-      |          [01;31m[K^~~~[m[K
-[01m[Kpcp.c:31:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconsumed[m[K’
-   31 | printf[34m[K([m[K“\nThe[01;31m[K [m[K[32m[Kconsumed[m[K value is %d”, consume);
-      |       [34m[K~[m[K      [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
-      |              [32m[K)[m[K
-[01m[Kpcp.c:31:35:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   31 | printf(“\nThe consumed value is %d[01;31m[K”[m[K, consume);
-      |                                   [01;31m[K^[m[K
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ gcc pcp.c[1@nano[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 35 lines ](B[m[H(B[0;7m  GNU nano 6.2                          pcp.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[4d{[5d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[6dchoice=0; in = 0;[7dout = 0;[8dbufsize = 10;[9d(B[0;1m[33mwhile[39m(B[m(choice !=3)[10d{[11dprintf(“\n1. Produce \t 2. Consume \t3. Exit”);[12dprintf(“\nEnter your choice: ”);[13dscanf(“%d”,&choice);[14d(B[0;1m[33mswitch[39m(B[m(choice) {[16d(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[17dprintf(“\nBuffer is Full”);[18d(B[0;1m[33melse[19d[39m(B[m{[20d[35mbreak[39m(B[m;[21d}[2d[?12l[?25h[?25l[1;47H(B[0;7m*[79G(B[m[?12l[?25h[2d(B[0;1m[36m #include[33m<stdio.h>[C[39m(B[m[?25l[?12l[?25h[1P[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25hp[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[11d[?25l[?12l[?25hp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[22d[K[?12l[?25h[11;5H[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h 1. Produce \t 2. Consume \t3. Exit”);[11;12H[?25l[?12l[?25h[12d[?25l[?12l[?25h[?25l[?12l[?25h Enter your choice: ”);[12;12H[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16;12H[?25l[?12l[?25h[?25l[?12l[?25h[17d[?25l[?12l[?25h Buffer is Full”);[17;12H[?25l[?12l[?25h[18;5H[?25l[?12l[?25h[19d{[?25l[?12l[?25h[20;7H[?25l[?12l[?25h[21d}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\nEnter the value: “);[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hscanf(“%d”, &produce);[21;12H[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h Enter the value: “);[20;12H[?25l[?12l[?25h[21d[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hbuffer[in] = produce;[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hin = (in+1)%bufsize;[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\nBuffer is Empty”);[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h[20;12H[?25l[?12l[?25h[?25l[?12l[?25h Buffer is Empty”);[20;12H[?25l[?12l[?25h[21;5H[?25l[?12l[?25h7[2;22r8[22d
+Script started on 2022-11-25 16:16:45+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ ec[Kcho "LRU algorithm"
+[?2004lLRU algorithm
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ nano LRU.c
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                          LRU.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;47H(B[0;7m*[22d(B[m[K[1;79H[2d}[3dprintf((B[0;1m[33m"\n no of page faults :%d"[39m(B[m,pf+frsize);[4dgetch();[5d}[7d[32mvoid[39m(B[m display()[8d{[9d[32mint[39m(B[m i; printf((B[0;1m[33m"\n"[39m(B[m);[10d(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[11dprintf((B[0;1m[33m"\t%d"[39m(B[m,fr[i]);[12d}[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[6d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h([?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[?12l[?25h[5d[?25l[?12l[?25h[A[?25l[?12l[?25hg[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h([?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[4;22r[22;1H
+[1;24r[3;46H[?12l[?25h[?25l[?12l[?25h[A}[?25l[?12l[?25h7[2;22r8M[1;24r[2;1Hdisplay();[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;22r8M[1;24r[2;1Hpf++;[?25l[?12l[?25h7[2;22r8M[1;24r[2;1Hfr[index]=p[j];[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;22r8M[1;24r[2;1Hindex=i;[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fs[i]==0)[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H}}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==p[k]) fs[i]=1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(k=j-1,l=1;l<=frsize-1;l++,k--)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfs[i]=0;[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(flag2==0)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfr[i]=p[j]; flag2=1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==-1)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(flag1==0)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag2=1; [35mbreak[39m(B[m;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag1=1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==p[j])[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag1=0,flag2=0;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(j=0;j<12;j++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfr[i]=-1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hclrscr();[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m index,k,l,flag1=0,flag2=0,pf=0,frsize=3;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m p[12]={2,3,2,1,5,2,4,5,3,2,5,2},i,j,fs[3];[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mvoid[39m(B[m display();[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mvoid[39m(B[m main()[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m fr[3];[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[36m#include[33m<conio.h>[39m(B[m[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[39m(B[m[?25l[?12l[?25h[3d[?25l[?12l[?25h[3;9H<conio.h[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h#includ[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h(B[0;1m[36m#[39m(B[m[K[?25l[?12l[?25h[K[?25l[3;22r[22;1H
+[1;24r[21;1Hflag1=1;[2;18H[?12l[?25h[?25l[?12l[?25h[3;11H[?25l[?12l[?25h[4d)[?25l[?12l[?25h[5d{[?25l[?12l[?25h[6;16H[?25l[?12l[?25h[7d2,[?25l[?12l[?25h[8d[?25l[?12l[?25h[9;10H[?25l[?12l[?25h[10;17H[?25l[?12l[?25h[11d{[?25l[?12l[?25h[12;10H[?25l[?12l[?25h[13d}[?25l[?12l[?25h[14;18H[?25l[?12l[?25h[15d{[?25l[?12l[?25h[16;17H[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d{[?25l[?12l[?25h[19;16H[?25l[?12l[?25h[20d{[?25l[?12l[?25h[21;9H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hflag2=1; [35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(flag1==0)[?25l[?12l[?25h7[2;22r8[22d
 [1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hconsume = buffer[out];[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\nThe consumed value is %d”, consume);[21;12H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hout = (out+1)%bufsize;[21;12H[?25l[?12l[?25h[A[?25l[?12l[?25h[?25l[?12l[?25h The consumed value is %d”, consume);[20;12H[?25l[?12l[?25h[21d[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H} } }[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[?25l[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: pcp.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 35 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ nano pcp.c[1Pgcc[C[C[C[C[C[C
-[?2004l[01m[Kpcp.c:[m[K In function ‘[01m[Kmain[m[K’:
-[01m[Kpcp.c:10:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   10 | printf([01;31m[K“[m[K\n 1. Produce \t 2. Consume \t3. Exit”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:10:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“[01;31m[K\[m[Kn 1. Produce \t 2. Consume \t3. Exit”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:10:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ undeclared (first use in this function); did you mean ‘[01m[Kin[m[K’?
-   10 | printf(“\[01;31m[Kn[m[K 1. Produce \t 2. Consume \t3. Exit”);
-      |          [01;31m[K^[m[K
-      |          [32m[Kin[m[K
-[01m[Kpcp.c:10:10:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
-[01m[Kpcp.c:10:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
-   10 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[K1.[m[K Produce \t 2. Consume \t3. Exit”);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:10:23:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“\n 1. Produce [01;31m[K\[m[Kt 2. Consume \t3. Exit”);
-      |                       [01;31m[K^[m[K
-[01m[Kpcp.c:10:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   10 | printf(“\n 1. Produce \t 2. Consume [01;31m[K\[m[Kt3. Exit”);
-      |                                     [01;31m[K^[m[K
-[01m[Kpcp.c:10:46:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   10 | printf(“\n 1. Produce \t 2. Consume \t3. Exit[01;31m[K”[m[K);
-      |                                              [01;31m[K^[m[K
-[01m[Kpcp.c:11:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   11 | printf([01;31m[K“[m[K\n Enter your choice: ”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:11:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   11 | printf(“[01;31m[K\[m[Kn Enter your choice: ”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:11:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KEnter[m[K’
-   11 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[KEnter[m[K your choice: ”);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~~~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:11:31:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   11 | printf(“\n Enter your choice: [01;31m[K”[m[K);
-      |                               [01;31m[K^[m[K
-[01m[Kpcp.c:12:7:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   12 | scanf([01;31m[K“[m[K%d”,&choice);
-      |       [01;31m[K^[m[K
-[01m[Kpcp.c:12:8:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K%[m[K’ token
-   12 | scanf(“[01;31m[K%[m[Kd”,&choice);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:12:10:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   12 | scanf(“%d[01;31m[K”[m[K,&choice);
-      |          [01;31m[K^[m[K
-[01m[Kpcp.c:16:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   16 | printf([01;31m[K“[m[K\n Buffer is Full”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:16:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   16 | printf(“[01;31m[K\[m[Kn Buffer is Full”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:16:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KBuffer[m[K’
-   16 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[KBuffer[m[K is Full”);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~~~~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:16:26:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   16 | printf(“\n Buffer is Full[01;31m[K”[m[K);
-      |                          [01;31m[K^[m[K
-[01m[Kpcp.c:21:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   21 | printf([01;31m[K“[m[K\n Enter the value: “);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:21:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   21 | printf(“[01;31m[K\[m[Kn Enter the value: “);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:21:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KEnter[m[K’
-   21 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[KEnter[m[K the value: “);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~~~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:21:29:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   21 | printf(“\n Enter the value: [01;31m[K“[m[K);
-      |                             [01;31m[K^[m[K
-[01m[Kpcp.c:22:7:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   22 | scanf([01;31m[K“[m[K%d”, &produce);
-      |       [01;31m[K^[m[K
-[01m[Kpcp.c:22:8:[m[K [01;31m[Kerror: [m[Kexpected expression before ‘[01m[K%[m[K’ token
-   22 | scanf(“[01;31m[K%[m[Kd”, &produce);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:22:10:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   22 | scanf(“%d[01;31m[K”[m[K, &produce);
-      |          [01;31m[K^[m[K
-[01m[Kpcp.c:27:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   27 | printf([01;31m[K“[m[K\n Buffer is Empty”);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:27:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   27 | printf(“[01;31m[K\[m[Kn Buffer is Empty”);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:27:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KBuffer[m[K’
-   27 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[KBuffer[m[K is Empty”);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~~~~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:27:27:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   27 | printf(“\n Buffer is Empty[01;31m[K”[m[K);
-      |                           [01;31m[K^[m[K
-[01m[Kpcp.c:31:8:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   31 | printf([01;31m[K“[m[K\n The consumed value is %d”, consume);
-      |        [01;31m[K^[m[K
-[01m[Kpcp.c:31:9:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
-   31 | printf(“[01;31m[K\[m[Kn The consumed value is %d”, consume);
-      |         [01;31m[K^[m[K
-[01m[Kpcp.c:31:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KThe[m[K’
-   31 | printf[34m[K([m[K“\n[01;31m[K [m[K[32m[KThe[m[K consumed value is %d”, consume);
-      |       [34m[K~[m[K   [01;31m[K^[m[K[32m[K~~~[m[K
-      |           [32m[K)[m[K
-[01m[Kpcp.c:31:36:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\342[m[K’ in program
-   31 | printf(“\n The consumed value is %d[01;31m[K”[m[K, consume);
-      |                                    [01;31m[K^[m[K
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ gcc pcp.c[1@nano[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 35 lines ](B[m[H(B[0;7m  GNU nano 6.2                          pcp.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[4d{[5d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[6dchoice=0; in = 0;[7dout = 0;[8dbufsize = 10;[9d(B[0;1m[33mwhile[39m(B[m(choice !=3)[10d{[11dprintf(“\n 1. Produce \t 2. Consume \t3. Exit”);[12dprintf(“\n Enter your choice: ”);[13dscanf(“%d”,&choice);[14d(B[0;1m[33mswitch[39m(B[m(choice) {[16d(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[17dprintf(“\n Buffer is Full”);[18d(B[0;1m[33melse[19d[39m(B[m{[20d[35mbreak[39m(B[m;[21d}[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[22d[K[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[10d{[?25l[?12l[?25h[11;5H[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[1;47H(B[0;7m*[79G(B[m[?12l[?25h[11;8H[1P[?25l[?12l[?25h"\n 1. Produce \t 2. Consume \t3. Exit”);[11;9H[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25h1[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25hP[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hd[?25l[?12l[?25hu[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h\[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h2[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25hC[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25h\[?25l[?12l[?25ht[?25l[?12l[?25h3[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25hE[?25l[?12l[?25hx[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25h[C[?25l[?12l[?25h);[K[?25l[?12l[?25h[8G(B[0;1m[33m"\n 1. Produce \t 2. Consume \t3. Exit"[39m(B[m);[?25l[?12l[?25h[12;34H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h);[K[?25l[?12l[?25h");[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m"\n Enter your choice: "[39m(B[m);[12;9H[?25l[?12l[?25h[?25l[?12l[?25h[13d[?25l[?12l[?25h%[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hd,&choice);[13;10H[?25l[?12l[?25h",&choice);[13;11H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m"%d"[39m(B[m,&choice);[8G[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16;8H[?25l[?12l[?25h[17d[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h"\n Buffer is Full”);[17;9H[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hB[?25l[?12l[?25hu[?25l[?12l[?25hf[?25l[?12l[?25hf[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hF[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25h[C[?25l[?12l[?25h);[K[?25l[?12l[?25h[8G(B[0;1m[33m"\n Buffer is Full"[39m(B[m);[?25l[?12l[?25h[18;5H[?25l[?12l[?25h[19d{[?25l[?12l[?25h[20;7H[?25l[?12l[?25h[21d}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\n Enter the value: “);[27G[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hscanf(“%d”, &produce);[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hbuffer[in] = produce;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hin = (in+1)%bufsize;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\n Buffer is Empty”);[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H{[?25l[?12l[?25h[20;5H[?25l[?12l[?25h[19;27H[?25l[?12l[?25h[18;22H[?25l[?12l[?25h[17;7H[?25l[?12l[?25h[16;21H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A;[?25l[?12l[?25h[Aalue[?25l[?12l[?25h[A}[?25l[?12l[?25h[11;7H[?25l[?12l[?25h[12d}[?25l[?12l[?25h[13;27H[?25l[?12l[?25h:[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h);[K[?25l[?12l[?25h");[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m"\n Enter the value: "[39m(B[m);[13;9H[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[A[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h", &produce);[14;11H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h(B[0;1m[33m"%d"[39m(B[m, &produce);[8G[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d:[?25l[?12l[?25h[19d[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h'\n Buffer is Empty”);[19;9H[?25l[?12l[?25h[1P[?25l[?12l[?25h"\n Buffer is Empty”);[19;9H[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hB[?25l[?12l[?25hu[?25l[?12l[?25hf[?25l[?12l[?25hf[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hE[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25ht[?25l[?12l[?25hy[?25l[?12l[?25h[C[?25l[?12l[?25h)[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[C[?25l[?12l[?25h);[K[?25l[?12l[?25h[8G(B[0;1m[33m"\n Buffer is Empty"[39m(B[m);[?25l[?12l[?25h[20;5H[?25l[?12l[?25h[21d{[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hconsume = buffer[out];[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf(“\n The consumed value is %d”, consume);[21;28H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hout = (out+1)%bufsize;[?25l[?12l[?25h[20;28H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h"\n The consumed value is %d”, consume);[20;9H[?25l[?12l[?25h\[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hT[?25l[?12l[?25hh[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25hu[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hv[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hu[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h%[?25l[?12l[?25hd[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[8G(B[0;1m[33m"\n The consumed value is %d"[39m(B[m, consume);[20;37H[?25l[?12l[?25h[21;23H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H} } }[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[?25l[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: pcp.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 35 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ nano pcp.c[1Pgcc[C[C[C[C[C[C
-[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ ./a.out
-[?2004l
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 2
-
- Buffer is Empty
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 3
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ ./a.outgcc pcp.c[1@nano[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 35 lines ](B[m[H(B[0;7m  GNU nano 6.2                          pcp.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[4d{[5d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[6dchoice=0; in = 0;[7dout = 0;[8dbufsize = 10;[9d(B[0;1m[33mwhile[39m(B[m(choice !=3)[10d{[11dprintf((B[0;1m[33m"\n 1. Produce \t 2. Consume \t3. Exit"[39m(B[m);[12dprintf((B[0;1m[33m"\n Enter your choice: "[39m(B[m);[13dscanf((B[0;1m[33m"%d"[39m(B[m,&choice);[14d(B[0;1m[33mswitch[39m(B[m(choice) {[16d(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[17dprintf((B[0;1m[33m"\n Buffer is Full"[39m(B[m);[18d(B[0;1m[33melse[19d[39m(B[m{[20d[35mbreak[39m(B[m;[21d}[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[22d[K[?12l[?25h[11dp[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hf[?25l[?12l[?25h([?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[1;47H(B[0;7m*[79G(B[m[?12l[?25h[11;14H[1P[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[1P[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[12;34H[?25l[?12l[?25h[13;21H[?25l[?12l[?25h[12;34H[?25l[?12l[?25h[11;43H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[12;34H[?25l[?12l[?25h[13;21H[?25l[?12l[?25h[14;17H[?25l[?12l[?25h[15d[?25l[?12l[?25h[16;32H[?25l[?12l[?25h[17;29H[?25l[?12l[?25h[18;5H[?25l[?12l[?25h[19d{[?25l[?12l[?25h[20;7H[?25l[?12l[?25h[21d}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf((B[0;1m[33m"\n Enter the value: "[39m(B[m);[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hscanf((B[0;1m[33m"%d"[39m(B[m, &produce);[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hbuffer[in] = produce;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hin = (in+1)%bufsize;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[20dprintf((B[0;1m[33m"\n Buffer is Empty"[39m(B[m);[21d(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H{[20dconsume = buffer[out];[21dprintf((B[0;1m[33m"\n The consumed value is %d"[39m(B[m, consume);[21;39H[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hout = (out+1)%bufsize;[20d}[21d[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[2S[1;24r[20;1H} } }[21d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[18d}[?25l[?12l[?25h[15;23H[?25l[?12l[?25h[12;30H[?25l[?12l[?25h[9;21H[?25l[?12l[?25h[6;32H[?25l[?12l[?25h[3d{[?25l[?12l[?25h[2;21r[2;1H[2T[1;24r[2;1H(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[3dprintf((B[0;1m[33m"\n Buffer is Full"[39m(B[m);[Aut)[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hscanf((B[0;1m[33m"%d"[39m(B[m,&choice);[3d(B[0;1m[33mswitch[39m(B[m(choice) {[Ace);[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3dprintf((B[0;1m[33m"\n 1.Produce \t 2.Consume \t3.Exit"[39m(B[m);[4dprintf((B[0;1m[33m"\n Enter your choice: "[39m(B[m);[2d{[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hout = 0;[3dbufsize = 10;[4d(B[0;1m[33mwhile[39m(B[m(choice !=3)[2;9H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[4dchoice=0; in = 0;[2d{[?25l[?12l[?25h7[2;21r8[2T[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[2;18H[?25l[?12l[?25h[?25l[?12l[?25h[5;39H[?25l[?12l[?25h[8;14H[?25l[?12l[?25h[11;39H[?25l[?12l[?25h[14;17H[?25l[?12l[?25h[17;29H[?25l[?12l[?25h[20;7H[?25l[?12l[?25h[2;22r[22;1H[2S[1;24r[20;1Hprintf((B[0;1m[33m"\n Enter the value: "[39m(B[m);[21dscanf((B[0;1m[33m"%d"[39m(B[m, &produce);[?25l[?12l[?25h[18;7H[?25l[?12l[?25h[15;29H[?25l[?12l[?25h[12;17H[?25l[?12l[?25h[15;29H[?25l[?12l[?25h[18;7H[?25l[?12l[?25h[21;23H[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hbuffer[in] = produce;[20din = (in+1)%bufsize;[21d[35mbreak[39m(B[m;[?25l[?12l[?25h[18;23H[?25l[?12l[?25h[15;7H[?25l[?12l[?25h[12;29H[?25l[?12l[?25h[9;17H[?25l[?12l[?25h[Ace);[?25l[?12l[?25h[7;34H[?25l[?12l[?25h[6;39H[?25l[?12l[?25h[A{[?25l[?12l[?25h[4;18H[?25l[?12l[?25h[A[?25l[?12l[?25h[4;18H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h!=3)[K[?25l[?12l[?25h[5d{[?25l[?12l[?25h[6;13H[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11;13H[?25l[?12l[?25h[12d[?25l[?12l[?25h[13;5H[?25l[?12l[?25h[14d{[?25l[?12l[?25h[15;7H[?25l[?12l[?25h[16d}[?25l[?12l[?25h[17;13H[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21;7H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[21;13H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf((B[0;1m[33m"\n Buffer is Empty"[39m(B[m);[21;13H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8[22d
 [1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hconsume = buffer[out];[21;13H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hprintf((B[0;1m[33m"\n The consumed value is %d"[39m(B[m, consume);[21;13H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hout = (out+1)%bufsize;[21;13H[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(fr[i]==-1)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfr[i]=p[j]; flag2=1;[?25l[?12l[?25h7[2;22r8[22d
 [1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H} } }[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[20;6H[?25l[?12l[?25h[A;[?25l[?12l[?25h[A}[?25l[?12l[?25h[17;13H[?25l[?12l[?25h[A[?25l[?12l[?25h[17d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: pcp.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 35 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ nano pcp.c[3P./a.out
-[?2004l
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
-
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 2
-
- Buffer is Empty
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 2
-
- Buffer is Empty
- 1. Produce 	 2. Consume 	3. Exit
- Enter your choice: 3
-[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ ./a.outnano pcp.c[3P./a.outnano pcp.c
-[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 35 lines ](B[m[H(B[0;7m  GNU nano 6.2                          pcp.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[4d{[5d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[6dchoice=0; in = 0;[7dout = 0;[8dbufsize = 10;[9d(B[0;1m[33mwhile[39m(B[m(choice!=3)[10d{[11dprintf((B[0;1m[33m"\n 1.Produce \t 2.Consume \t3.Exit"[39m(B[m);[12dprintf((B[0;1m[33m"\n Enter your choice: "[39m(B[m);[13dscanf((B[0;1m[33m"%d"[39m(B[m,&choice);[14d(B[0;1m[33mswitch[39m(B[m(choice) {[16d(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[17dprintf((B[0;1m[33m"\n Buffer is Full"[39m(B[m);[18d(B[0;1m[33melse[19d[39m(B[m{[20d[35mbreak[39m(B[m;[21d}[2d[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20d[?25l[22d[K[?12l[?25h7[2;22r8[2S[1;24r[20;1Hprintf((B[0;1m[33m"\n Enter the value: "[39m(B[m);[21dscanf((B[0;1m[33m"%d"[39m(B[m, &produce);[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hbuffer[in] = produce;[20din = (in+1)%bufsize;[21d[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in == out)[20dprintf((B[0;1m[33m"\n Buffer is Empty"[39m(B[m);[21d(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H{[20dconsume = buffer[out];[21dprintf((B[0;1m[33m"\n The consumed value is %d"[39m(B[m, consume);[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h [?25l[?12l[?25h2[?25l[?12l[?25h:[?25l[?12l[?25h [?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25h([?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h [?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25ht[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;47H(B[0;7m*[79G(B[m[?12l[?25h[16;17Hout)[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[17d[?25l[?12l[?25h[18;5H[?25l[?12l[?25h[19d{[?25l[?12l[?25h[20;14H[?25l[?12l[?25h[21d[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1Hout=(out+1)%bufsize;[14G[?25l[?12l[?25h7[2;22r8[22d
 [1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H} } }[?25l[?12l[?25h7[2;22r8[22d
-[1;24r[21;1H[?25l[?12l[?25h[18d}[?25l[?12l[?25h[15;14H[?25l[?12l[?25h[12d[?25l[?12l[?25h[9d[?25l[?12l[?25h[6d[?25l[?12l[?25h[3d{[?25l[?12l[?25h[2;21r[2;1H[2T[1;24r[2;1H(B[0;1m[33mcase[39m(B[m 1: (B[0;1m[33mif[39m(B[m((in+1)%bufsize==out)[3dprintf((B[0;1m[33m"\n Buffer is Full"[39m(B[m);[2;14H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hscanf((B[0;1m[33m"%d"[39m(B[m,&choice);[3d(B[0;1m[33mswitch[39m(B[m(choice) {[A[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3dprintf((B[0;1m[33m"\n 1.Produce \t 2.Consume \t3.Exit"[39m(B[m);[4dprintf((B[0;1m[33m"\n Enter your choice: "[39m(B[m);[2d{[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hout = 0;[3dbufsize = 10;[4d(B[0;1m[33mwhile[39m(B[m(choice!=3)[2;9H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[4dchoice=0; in = 0;[2d{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mvoid[39m(B[m main()[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[?12l[?25h[14d[?25l[?12l[?25h[17d[?25l[?12l[?25h[20;7H[?25l[?12l[?25h[2;22r[22;1H[2S[1;24r[20;1Hprintf((B[0;1m[33m"\n Enter the value: "[39m(B[m);[21dscanf((B[0;1m[33m"%d"[39m(B[m, &produce);[21;14H[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hbuffer[in] = produce;[20din = (in+1)%bufsize;[21d[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H(B[0;1m[33mcase[39m(B[m 2: (B[0;1m[33mif[39m(B[m(in==out)[20dprintf((B[0;1m[33m"\n Buffer is Empty"[39m(B[m);[21d(B[0;1m[33melse[39m(B[m[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1H{[20dconsume = buffer[out];[21dprintf((B[0;1m[33m"\n The consumed value is %d"[39m(B[m, consume);[21;14H[?25l[?12l[?25h7[2;22r8[22d[3S[1;24r[19;1Hout=(out+1)%bufsize;[20d}[21d[35mbreak[39m(B[m;[?25l[?12l[?25h[A}[?25l[?12l[?25h[19;14H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A{[?25l[?12l[?25h[15;5H[?25l[?12l[?25h[14;14H[?25l[?12l[?25h[A[?25l[?12l[?25h[12;7H[?25l[?12l[?25h[11;14H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h[1P[?25l[?12l[?25h[8d[?25l[?12l[?25h[5d[?25l[?12l[?25h[2;3H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hscanf((B[0;1m[33m"%d"[39m(B[m,&choice);[3d(B[0;1m[33mswitch[39m(B[m(choice) {[Asc[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3dprintf((B[0;1m[33m"\n 1.Produce \t 2.Consume \t3.Exit"[39m(B[m);[4dprintf((B[0;1m[33m"\n Enter your choice: "[39m(B[m);[2d{[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1Hout = 0;[3dbufsize = 10;[4d(B[0;1m[33mwhile[39m(B[m(choice!=3)[2;3H[?25l[?12l[?25h7[2;21r8[3T[1;24r[2;1H{[3d[32mint[39m(B[m buffer[10], bufsize, in, out, produce, consume,[4dchoice=0; in = 0;[2d{[?25l[?12l[?25h7[2;21r8[2T[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mvoid[39m(B[m main()[2;3H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[5d[?25l[?12l[?25h[8d[?25l[?12l[?25h[11d[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: pcp.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 35 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ echo "prof[Kgram exceuted su ccessfully" `date`
-[?2004lprogram exceuted successfully Friday 25 November 2022 04:11:19 PM IST
-[?2
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(flag2==0)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfs[i]=0;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(k=j-1,l=1;l<=frsize-1;l++,k--)[21;18H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(fr[i]==p[k]) fs[i]=1;[18G[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mif[39m(B[m(fs[i]==0)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hindex=i;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hfr[index]=p[j];[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hpf++;[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hdisplay();[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hprintf((B[0;1m[33m"\n no of page faults :%d"[39m(B[m,pf+frsize);[21;18H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mvoid[39m(B[m display()[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H{[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[32mint[39m(B[m i; printf((B[0;1m[33m"\n"[39m(B[m);[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1Hprintf((B[0;1m[33m"\t%d"[39m(B[m,fr[i]);[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H}[?25l[?12l[?25h7[2;22r8[22d
+[1;24r[21;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A}[?25l[?12l[?25h[19;18H[?25l[?12l[?25h[A[?25l[?12l[?25h[A[C[?25l[?12l[?25h[A{[?25l[?12l[?25h[15;15H[?25l[?12l[?25h[A[?25l[?12l[?25h[A}[?25l[?12l[?25h[12;18H[?25l[?12l[?25h[A}[?25l[?12l[?25h[10;11H[?25l[?12l[?25h[A}[?25l[?12l[?25h[Af++;[?25l[?12l[?25h[7;16H[?25l[?12l[?25h[A}[?25l[?12l[?25h[5;9H[?25l[?12l[?25h[A==0)[?25l[?12l[?25h[A{[?25l[?12l[?25h[2;17H[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H}}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==p[k]) fs[i]=1;[18G[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(k=j-1,l=1;l<=frsize-1;l++,k--)[2;18H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfs[i]=0;[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(flag2==0)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[35mbreak[39m(B[m;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfr[i]=p[j]; flag2=1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==-1)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(flag1==0)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag2=1; [35mbreak[39m(B[m;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag1=1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mif[39m(B[m(fr[i]==p[j])[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hflag1=0,flag2=0;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(j=0;j<12;j++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H}[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hfr[i]=-1;[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[?25l[?12l[?25h7[2;21r8M[1;24r[2;1Hclrscr();[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m index,k,l,flag1=0,flag2=0,pf=0,frsize=3;[2;18H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m p[12]={2,3,2,1,5,2,4,5,3,2,5,2},i,j,fs[3];[2;18H[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mvoid[39m(B[m display();[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H{[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mvoid[39m(B[m main()[?25l[?12l[?25h7[2;21r8M[1;24r[2;1H[32mint[39m(B[m fr[3];[?25l[?12l[?25h7[2;22r8M[1;24r[2;1H(B[0;1m[36m#include[33m<stdio.h>[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3;11H[?25l[?12l[?25h[4d)[?25l[?12l[?25h[5d{[?25l[?12l[?25h[6;16H[?25l[?12l[?25h[7d2,[?25l[?12l[?25h1[?25l[?12l[?25h,[?25l[?12l[?25h5[?25l[?12l[?25h,[?25l[?12l[?25h2[?25l[?12l[?25h,[?25l[?12l[?25h4[?25l[?12l[?25h,[?25l[?12l[?25h5[?25l[?12l[?25h,[?25l[?12l[?25h3[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h1,2,5,2},i,j,fs[3];[7;24H[?25l[?12l[?25h,,2,5,2},i,j,fs[3];[7;25H[?25l[?12l[?25h4,2,5,2},i,j,fs[3];[7;26H[?25l[?12l[?25h,,2,5,2},i,j,fs[3];[7;27H[?25l[?12l[?25h5,2,5,2},i,j,fs[3];[7;28H[?25l[?12l[?25h,,2,5,2},i,j,fs[3];[7;29H[?25l[?12l[?25h6,2,5,2},i,j,fs[3];[7;30H[?25l[?12l[?25h,,2,5,2},i,j,fs[3];[7;31H[?25l[?12l[?25h8,2,5,2},i,j,fs[3];[7;32H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h2[?25l[?12l[?25h,1,4,5,6,8,2,5,2},i,j,fs[3];[7;24H[?25l[?12l[?25h1[?25l[?12l[?25h,[?25l[?12l[?25h4[?25l[?12l[?25h,[?25l[?12l[?25h5[?25l[?12l[?25h,[?25l[?12l[?25h6[?25l[?12l[?25h,[?25l[?12l[?25h8[?25l[?12l[?25h,[?25l[?12l[?25h2[?25l[?12l[?25h,[?25l[?12l[?25h5[?25l[?12l[?25h,[?25l[?12l[?25h2[?25l[?12l[?25h}[?25l[?12l[?25h,[?25l[?12l[?25hi[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h2[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m Browse[22d(B[0;7mFile Name to Write: LRU.c(B[m[?12l[?25h[?25l[33G[1K (B[0;7m[ Writing... ](B[m[K[1;47H(B[0;7m [79G(B[m[22;32H(B[0;7m[ Wrote 64 lines ](B[m[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ echo"le[Kru compilation"`[K `da te`
+[?2004lecholru compilation: command not found
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ echo"lru compilation" `date`[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [15Pnano LRU.c
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho"lru compilation" `date`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "lru compilation" `date`[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [C[C[C[C[C
+
+[?2004llru compilation Friday 25 November 2022 04:21:22 PM IST
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ gcc LRU.c
+[?2004l[01m[KLRU.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[KLRU.c:8:1:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kclrscr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+    8 | [01;35m[Kclrscr[m[K();
+      | [01;35m[K^~~~~~[m[K
+/usr/bin/ld: /tmp/ccNDo40D.o: in function `main':
+LRU.c:(.text+0x91): undefined reference to `clrscr'
+collect2: error: ld returned 1 exit status
+[?2004h]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ gcc LRU.cecho "lru compilation" `date`[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [C[C[C[C"lru compilation" `dat[1Pe`[A]0;srit@srit-HP-Pro-3090-MT: ~/204g1a0591/cn-os-lab/oslab[01;32msrit@srit-HP-Pro-3090-MT[00m:[01;34m~/204g1a0591/cn-os-lab/oslab[00m$ [15Pnano LRU.c
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 64 lines ](B[m[H(B[0;7m  GNU nano 6.2                          LRU.c                                   [1;79H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2d(B[0;1m[36m#include[33m<stdio.h>[3d(B[0m[32mint[39m(B[m fr[3];[4d[32mvoid[39m(B[m main()[5d{[6d[32mvoid[39m(B[m display();[7d[32mint[39m(B[m p[12]={2,3,2,1,5,2,1,4,5,6,8,2},i,j,fs[3];[8d[32mint[39m(B[m index,k,l,flag1=0,flag2=0,pf=0,frsize=3;[9dclrscr();[10d(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[11d{[12dfr[i]=-1;[13d}[14d(B[0;1m[33mfor[39m(B[m(j=0;j<12;j++)[15d{[16dflag1=0,flag2=0;[17d(B[0;1m[33mfor[39m(B[m(i=0;i<3;i++)[18d{[19d(B[0;1m[33mif[39m(B[m(fr[i]==p[j])[20d{[21dflag1=1;[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25hc[?25l[?12l[?25hl[?25l[?12l[?25hr[?25l[?12l[?25hs[?25l[?12l[?25hc[?25l[?12l[?25hr[?25l[?12l[?25h([?25l[?12l[?25h)[?25l[?12l[?25h;[?25l[1;47H(B[0;7m*[79G(B[m[?12l
